@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css?family=Exo|Sacramento&display=swap');
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html{
+    scroll-behavior: smooth;
+
+
+}
+body {
+    font-family: 'Exo', sans-serif;
+
+}
+
+header {
+    background-color: #e0ebe8;
+
+    width: 100%;
+    text-align: center;
+}
+
+hr {
+    border: none;
+    width: 50px;
+    border-bottom: 5px dotted #32b99c;
+    margin: 50px auto;
+}
+
+nav {
+    padding-top: 5px;
+    margin: auto;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 72px;
+}
+
+.links {
+    width: 241px;
+    align-items: center;
+}
+
+.links ul {
+    margin-top: 20px;
+    display: flex;
+    height: 50px;
+}
+
+.links ul li {
+    width: 70px;
+    list-style: none;
+    margin: 5px;
+}
+
+.links ul li a {
+    display: block;
+    padding: 7px;
+    width: 100%;
+    height: 100%;
+    font-size: 21px;
+    text-decoration: none;
+    color: #7bd8c4;
+}
+
+
+#active {
+    color: rgb(30, 83, 76);
+}
+
+.top {
+    position: relative;
+    background-color: #e0ebe8;
+
+}
+
+.heading {
+    font-family: 'Sacramento', cursive;
+
+    color: #4ab19a;
+    text-align: center;
+}
+
+.heading h3 {
+    font-weight: 700;
+    font-size: 82px;
+}
+
+.heading h4 {
+    font-weight: 500;
+    font-size: 60px;
+}
+
+.heading img {
+    position: absolute;
+    top: 30px;
+    left: 80px;
+    width: 150px;
+}
+
+.top-mountain {
+    text-align: center;
+
+}
+
+.container-middle {
+    text-align: center;
+    width: 46%;
+    margin: auto;
+
+}
+
+.middle {
+    width: 65%;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.me {
+    font-family: 'Exo', sans-serif;
+    text-align: center;
+}
+
+.me img {
+    width: 150px;
+}
+
+.me p {
+    color: #545454;
+
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.me h4 {
+    color: #4ab19a;
+    font-size: 20px;
+    padding: .5em 0;
+    margin: 5px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+.my-skills {
+    width: 65%;
+    margin: auto;
+}
+
+.skill-main-head {
+    font-size: 36px;
+    font-weight: 400;
+    color: #1e836c;
+
+    width: 65%;
+    text-align: center;
+    margin: auto;
+    margin: 15px auto;
+}
+
+.skill-container {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.skill-first-media {
+    display: flex;
+}
+
+.skill-first {
+    height: 159px;
+    width: 76%;
+    display: flex;
+    margin: 55px auto;
+}
+
+.skill-first-media {
+    width: 65%;
+}
+
+.skill-first-about {
+    width: 99%;
+}
+
+.skill-first-about h3 {
+    color: #45b29a;
+    padding-bottom: 21px;
+    text-align: left;
+    font-size: 25px;
+}
+
+.skill-first-about p {
+    color: #545454;
+    text-align: left;
+    width: 100%;
+    font-size: 19px;
+}
+
+.first-first-img {
+    width: 114px;
+}
+
+.first-second-img {
+    width: 74px;
+    margin-left: 50px;
+}
+
+.skill-second {
+    height: 159px;
+    width: 76%;
+    display: flex;
+    margin: 55px auto;
+}
+
+.skill-second-media {
+    display: flex;
+}
+
+.second-first-img {
+    width: 74px;
+    margin-right: 50px;
+}
+
+.second-second-img {
+    width: 114px;
+}
+
+.skill-second-media {
+    width: 65%;
+}
+
+.skill-second-about {
+    width: 99%;
+    margin-right: 30px;
+}
+
+.skill-second-about h3 {
+    color: #45b29a;
+    padding-bottom: 21px;
+    text-align: right;
+    font-size: 25px;
+
+}
+
+.skill-second-about p {
+    color: #545454;
+    width: 100%;
+    font-size: 19px;
+    text-align: right;
+}
+
+
+
+
+
+
+
+.bottom-container {
+    width: 55%;
+    text-align: center;
+    margin: auto;
+
+}
+
+.bottom-container h3 {
+    color: #1e836c;
+
+    font-size: 36px;
+    margin: 15px 0px;
+}
+
+.bottom-container h4 {
+    color: #45b6aa;
+    font-size: 25px;
+    margin: 15px 0px;
+
+}
+
+.bottom-container p {
+    color: #545454;
+    font-weight: 600;
+    margin: 15px 0px;
+    font-size: 19px;
+    width: 55%;
+    margin: auto;
+}
+
+.bottom-button {
+    width: 100px;
+    height: 45px;
+    margin: 15px 0px;
+    font-size: 19px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    border-radius: 7px;
+    color: aliceblue;
+    background-color: #114135;
+}
+
+.footer {
+    height: 80px;
+    background: #c5ded7;
+
+    display: flex;
+    justify-content: space-around;
+    color: #2f927d;
+
+    font-weight: 600;
+
+}
+.bottom-container a{
+    text-decoration: none;
+    color: white;
+}
+.footer div {
+    align-items: center;
+    margin-top: 10px;
+}
+
+@media (max-width:750px) {
+
+    nav {
+        width: 99%;
+    }
+
+    .links ul li a {
+        padding: 2px;
+        font-size: 17px;
+    }
+
+    .top-mountain {
+        width: 100%;
+    }
+
+    .heading h3 {
+        font-size: 50px;
+        z-index: 5;
+    }
+
+    .heading h4 {
+        z-index: 5;
+        font-size: 34px;
+    }
+
+    .heading img {
+        z-index: -1;
+    }
+    .top-mountain img {
+        width: 100%;
+    }
+.middle{
+    width: 85%;
+}
+.container-middle{
+    width: 99%;
+}
+.me img{
+    width: 120px;
+}
+
+.my-skills{
+    width: 99%;
+}
+.skill-main-head{
+    width: 100%;
+}
+.skill-first{
+    width: 100%;
+    flex-direction: column;
+    height: auto;
+}
+.skill-second{
+    flex-direction: column;
+    height: auto;
+
+}
+
+.skill-first-media {
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+.skill-first-about{
+    width: 97%;
+    margin: auto;
+    margin-top: 6px;
+}
+.skill-first-about h3{
+    text-align: center;
+}
+.skill-second{
+    width: 100%;
+}
+.skill-second-media{
+    order: 1;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 6px;
+}
+.skill-second-about{
+    order: 2;
+    width: 97%;
+    margin: auto;
+    margin-top: 6px;
+}
+.skill-second-about h3{
+    text-align: center;
+}
+.skill-second-about p{
+    text-align: left;
+}
+.bottom-container{
+    width: 99%;
+}
+.bottom-container p{
+    width: 95%;
+}
+.footer{
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    height: auto;
+}
+.footer div{
+    margin-left: 25px;
+}
+.copyright{
+    color: #097682;
+    text-align: center;
+}
+
+
+
+}
