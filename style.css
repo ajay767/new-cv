@@ -351,7 +351,9 @@ width: 100%;
         padding: 2px;
         font-size: 17px;
     }
-
+    .top{
+    height:450px;
+    }
     .top-mountain {
         width: 100%;
     }
@@ -513,7 +515,7 @@ width: 100%;
 
 @media (max-width:1350px) {
     .top {
-        height: 600px;
+        height: 500px;
     }
 
     .top-mountain {
