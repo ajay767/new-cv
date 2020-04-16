@@ -80,6 +80,7 @@ nav {
 .top {
     position: relative;
     background-color: #e0ebe8;
+    height: 410px;
 
 }
 
@@ -108,6 +109,8 @@ nav {
 }
 
 .top-mountain {
+    position: absolute;
+    bottom: 0px;
     text-align: center;
 
 }
@@ -350,6 +353,7 @@ nav {
     }
 
     .heading h3 {
+        padding-top: 50px;
         font-size: 50px;
         z-index: 5;
     }
@@ -384,52 +388,82 @@ nav {
 .skill-first{
     width: 100%;
     flex-direction: column;
-    height: auto;
+    height: 412px;
+    margin: auto;
+
 }
 .skill-second{
     flex-direction: column;
-    height: auto;
+    height: 412px;
+    margin: auto;
+
 
 }
 
 .skill-first-media {
-    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    width: 92%;
     text-align: center;
     margin: auto;
 }
+.first-first-img{
+    width: 144px;
+
+
+}
+.first-second-img{
+    width: 87px;
+
+}
 .skill-first-about{
-    width: 97%;
+    width: 91%;
     margin: auto;
     margin-top: 6px;
+    text-align: center;
 }
 .skill-first-about h3{
+    text-align: center;
+}
+.skill-first-about p{
     text-align: center;
 }
 .skill-second{
     width: 100%;
 }
 .skill-second-media{
+    display: flex;
+    justify-content: space-around;
     order: 1;
-    width: 70%;
+    width: 92%;
     margin: auto;
     margin-bottom: 6px;
+}
+.second-first-img{
+    width: 87px;
+}
+.second-second-img{
+    width: 144px;
 }
 .skill-second-about{
     order: 2;
     width: 97%;
     margin: auto;
     margin-top: 6px;
+    text-align: center;
+
 }
 .skill-second-about h3{
     text-align: center;
 }
 .skill-second-about p{
-    text-align: left;
+    text-align: center;
 }
 .bottom-container{
     width: 99%;
 }
 .bottom-container p{
+    font-weight: 500;
     width: 95%;
 }
 .footer{
